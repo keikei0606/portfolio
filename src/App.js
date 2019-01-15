@@ -17,6 +17,8 @@ class App extends Component {
           < SNS />
           < Atrae />
         </div>
+        <div id="atrae">
+        </div>
       </div>
     );
   }
