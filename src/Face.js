@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import './Face.css';
 import face from './face.JPG';
 
 class Face extends Component {
     render() {
         return (
-            <div>
-                <img src={face} alt="face" width="300" height="400" />
+            <div className="round">
+                <img src={face} alt="face" />
+                <h3> 櫻井 啓裕 (Keisuke Sakurai)</h3>
             </div>
         )
     }
